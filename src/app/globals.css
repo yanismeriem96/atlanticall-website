@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  /* Couleurs de marque Atlanticall */
+  --color-primary-50: #eaf4fc;
+  --color-primary-100: #cfe6f8;
+  --color-primary-200: #9fcdf1;
+  --color-primary-300: #6fb4ea;
+  --color-primary-400: #3fc1f7; /* accent cyan */
+  --color-primary-500: #1e7fd6; /* bleu principal */
+  --color-primary-600: #145da0;
+  --color-primary-700: #0f4a80;
+  --color-primary-800: #0b2545; /* navy principal */
+  --color-primary-900: #081b33; /* navy très foncé */
+  --color-primary-950: #050f1e;
+
+  --color-accent: #3fc1f7;
+
+  /* Polices */
+  --font-heading: var(--font-poppins);
+  --font-body: var(--font-inter);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: var(--color-primary-900);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), system-ui, sans-serif;
+}
