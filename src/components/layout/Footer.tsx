@@ -32,11 +32,11 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-5xl grid-cols-1 gap-10 sm:grid-cols-3 sm:gap-20">
           {/* Navigation rapide */}
-          <div>
+          <div className="order-2 text-center sm:order-1 sm:text-left">
             <h3 className="text-sm font-bold uppercase tracking-wide text-[#081b33]">
               Navigation
             </h3>
-            <ul className="mt-4 flex flex-col gap-2.5">
+            <ul className="mt-4 flex flex-col items-center gap-2.5 sm:items-start">
               {NAV_LINKS.map((link) => (
                 <li key={link.href}>
                   <Link
@@ -51,11 +51,11 @@ export default function Footer() {
           </div>
 
           {/* Coordonnées */}
-          <div>
+          <div className="order-3 text-center sm:order-2 sm:text-left">
             <h3 className="text-sm font-bold uppercase tracking-wide text-[#081b33]">
               Contact
             </h3>
-            <ul className="mt-4 flex flex-col gap-3">
+            <ul className="mt-4 flex flex-col items-center gap-3 sm:items-start">
               <li>
                 <a
                   href="tel:+213557152160"
@@ -78,7 +78,7 @@ export default function Footer() {
           </div>
 
           {/* Logo + baseline + réseaux */}
-          <div>
+          <div className="order-1 flex flex-col items-center text-center sm:order-3 sm:items-start sm:text-left">
             <Image
               src="/images/logo.svg"
               alt="Atlanticall"
@@ -90,7 +90,7 @@ export default function Footer() {
               Votre partenaire call center pour la conversion et la relation
               client B2B.
             </p>
-            <div className="mt-5 flex items-center gap-3">
+            <div className="mt-5 flex items-center justify-center gap-3 sm:justify-start">
               <a
                 href="https://www.instagram.com/atlanticall_96"
                 target="_blank"

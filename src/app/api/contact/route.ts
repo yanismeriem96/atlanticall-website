@@ -15,10 +15,10 @@ export async function POST(request: Request) {
     }
 
     await resend.emails.send({
-      from: "Atlanticall <onboarding@resend.dev>",
+      from: "Atlanticall <direction@atlanticall-dz.com>",
       to: "direction@atlanticall-dz.com",
       replyTo: email,
-      subject: `[Site web] ${subject || "Nouvelle demande"} — ${name}`,
+      subject: `[Site web] ${subject || "Nouvelle demande"} - ${name}`,
       html: `
         <h2>Nouvelle demande depuis le site Atlanticall</h2>
         <p><strong>Nom :</strong> ${name}</p>
