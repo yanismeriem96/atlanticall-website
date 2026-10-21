@@ -101,7 +101,7 @@ export default function Footer() {
                 <InstagramIcon className="h-4 w-4" />
               </a>
               <a
-                href="https://facebook.com/atlanticall"
+                href="https://www.facebook.com/people/AtlantiCall/61594816197998/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
