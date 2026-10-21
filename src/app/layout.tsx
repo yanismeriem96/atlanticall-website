@@ -18,12 +18,29 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "AtlantiCall - Centre d'appels professionnel",
   description:
-    "AtlantiCall, votre partenaire call center : relation client, support, téléprospection.",
-  icons: {
-  icon: "/images/logo-icon.svg",
-  shortcut: "/images/logo-icon.svg",
-  apple: "/images/logo-icon.svg",
+    "AtlantiCall, votre partenaire call center en Algérie : réception d'appels, prise de rendez-vous, téléprospection et conversion de leads.",
+  keywords: [
+    "call center Algérie",
+    "centre d'appels",
+    "téléprospection",
+    "prise de rendez-vous",
+    "relation client Algérie",
+  ],
+  openGraph: {
+    title: "AtlantiCall - Centre d'appels professionnel",
+    description:
+      "Votre partenaire call center en Algérie : conversion de leads, prise de rendez-vous, téléprospection.",
+    url: "https://atlanticall-dz.com",
+    siteName: "Atlanticall",
+    locale: "fr_FR",
+    type: "website",
   },
+  icons: {
+    icon: "/images/logo-icon.svg",
+    shortcut: "/images/logo-icon.svg",
+    apple: "/images/logo-icon.svg",
+  },
+  metadataBase: new URL("https://atlanticall-dz.com"),
 };
 
 export default function RootLayout({
