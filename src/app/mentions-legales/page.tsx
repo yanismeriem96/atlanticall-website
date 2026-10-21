@@ -16,11 +16,12 @@ export default function MentionsLegales() {
     1. Présentation de l&apos;entreprise
   </h2>
   <p className="mt-2">
-    Le site atlanticall-dz.com est édité par Atlanticall, entreprise
-    individuelle (personne physique), dont le siège d&apos;activité est
-    situé à Rue Metiche Mouh, Bâtiment Selmoune, Local n° 5, 3ème étage,
-    Wilaya de Tizi Ouzou, Algérie.
-  </p>
+  Le site atlanticall-dz.com est édité par Abderrahmane Meriem,
+  exerçant en tant qu&apos;entreprise individuelle (personne physique)
+  sous le nom commercial Atlanticall, dont le siège d&apos;activité est
+  situé à Rue Metiche Mouh, Bâtiment Selmoune, Local n° 5, 3ème étage,
+  Wilaya de Tizi Ouzou, Algérie.
+</p>
   <ul className="mt-3 list-disc space-y-1 pl-5">
     <li>Registre de Commerce (RC) : 15/00-5244108A26</li>
     <li>NIF (Numéro d&apos;Identification Fiscale) : 15815010081512001500</li>
