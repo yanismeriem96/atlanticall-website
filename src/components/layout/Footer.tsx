@@ -88,7 +88,7 @@ export default function Footer() {
             />
             <p className="mt-4 max-w-xs text-sm font-medium leading-relaxed text-[#081b33]/80">
               Votre partenaire call center pour la conversion et la relation
-              client B2B.
+              client.
             </p>
             <div className="mt-5 flex items-center justify-center gap-3 sm:justify-start">
               <a

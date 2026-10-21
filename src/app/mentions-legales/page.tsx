@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mentions légales — Atlanticall",
+  title: "Mentions légales - Atlanticall",
 };
 
 export default function MentionsLegales() {
