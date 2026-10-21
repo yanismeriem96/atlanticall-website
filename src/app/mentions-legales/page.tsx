@@ -23,9 +23,9 @@ export default function MentionsLegales() {
   </p>
   <ul className="mt-3 list-disc space-y-1 pl-5">
     <li>Registre de Commerce (RC) : 15/00-5244108A26</li>
-    <li>NIF (Numéro d&apos;Identification Fiscale) : 1581501081512001500</li>
+    <li>NIF (Numéro d&apos;Identification Fiscale) : 15815010081512001500</li>
     <li>NIS (Numéro d&apos;Identification Statistique) : 195815010081535</li>
-    <li>NIN (Numéro d&apos;Identification Nationale) : 10980487008150001</li>
+    <li>NIN (Numéro d&apos;Identification Nationale) : 109580487008150001</li>
     <li>Article d&apos;Imposition : 15014805058</li>
   </ul>
 </section>
